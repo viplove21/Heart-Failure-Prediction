@@ -3,7 +3,10 @@ People with cardiovascular disease or who are at high cardiovascular risk (due t
 
 Most cardiovascular diseases can be prevented by addressing behavioural risk factors such as tobacco use, unhealthy diet and obesity, physical inactivity and harmful use of alcohol using population-wide strategies.
 
-Cardiovascular diseases (CVDs) are the number 1 cause of death globally, taking an estimated 17.9 million lives each year, which accounts for 31% of all deaths worlwide.
-Heart failure is a common event caused by CVDs and this dataset contains 12 features that can be used to predict mortality by heart failure.
+The dataset contains 12 clinical features each representing one factor that could lead to heart failure
 
+All features have been dealt with data cleaning, feature engg, one-hot encoding, standard data scaling and outliers have been dropped to make the data look more useful.
 
+EDA, being the most integral part of an analysis, have been used to check the correlation between all 12 variables and find out if they produce bias before applying them to the model. Also, multicollinearity has been done. 
+
+For modelling, i have used both Logistic regression and Knn to check which one will prvide better results and accuracy. 
