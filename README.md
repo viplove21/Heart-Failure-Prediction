@@ -9,4 +9,4 @@ All features have been dealt with data cleaning, feature engg, one-hot encoding,
 
 EDA, being the most integral part of an analysis, have been used to check the correlation between all 12 variables and find out if they produce bias before applying them to the model. Also, multicollinearity has been done. 
 
-For modelling, i have used both Logistic regression and Knn to check which one will prvide better results and accuracy. 
+For modelling, i have used both Logistic regression and Knn to check which one will provide better results and accuracy. 
